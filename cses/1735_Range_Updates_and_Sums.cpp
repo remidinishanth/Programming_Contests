@@ -169,7 +169,7 @@ void push(int v, int tl, int tr){
 }
 
 void update(int v, int tl, int tr, int l, int r, int value, int type){
-    push(v, tl, tr);
+    push(v, tl, tr); // if you put this after (l>r) return statement, you'll get WA
     if(l>r) return;
     if(l==tl && tr==r){
         if(type==1){
