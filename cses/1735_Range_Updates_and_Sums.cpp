@@ -220,3 +220,6 @@ int main() {
 }
 
 // Do something instead of nothing, stay organised, stay ahead!, WRITE STUFF DOWN
+
+
+// Another solution: https://github.com/abeaumont/competitive-programming/blob/master/cses/1735.cc
