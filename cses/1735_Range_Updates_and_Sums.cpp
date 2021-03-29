@@ -169,7 +169,7 @@ void push(int v, int tl, int tr){
 }
 
 void update(int v, int tl, int tr, int l, int r, int value, int type){
-    push(v, tl, tr);
+    push(v, tl, tr); // if you put this after (l>r) return statement, you'll get WA
     if(l>r) return;
     if(l==tl && tr==r){
         if(type==1){
@@ -220,3 +220,6 @@ int main() {
 }
 
 // Do something instead of nothing, stay organised, stay ahead!, WRITE STUFF DOWN
+
+
+// Another solution: https://github.com/abeaumont/competitive-programming/blob/master/cses/1735.cc
